@@ -1,0 +1,35 @@
+{
+  "name": "code-snippets-crud-app",
+  "version": "1.0.0",
+  "description": "CRUD web application for code snippets implemented with Node.js, Express, MongoDB and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon app.mjs",
+    "start": "node app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmelnyk88/code-snippets-crud-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmelnyk88/code-snippets-crud-app/issues"
+  },
+  "homepage": "https://github.com/kmelnyk88/code-snippets-crud-app#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "highlight.js": "^11.7.0",
+    "markdown-it": "^13.0.1",
+    "mongoose": "^7.0.1"
+  }
+}

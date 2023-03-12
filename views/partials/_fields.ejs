@@ -1,0 +1,9 @@
+<div class="form-group mb-4">
+  <label for="title" class="text-capitalize">title</label>
+  <input required value="<%= formFields.title %>" type="text" name="title" id="title" class="form-control">
+</div>
+<div class="form-group mb-4">
+  <label for="snippet" class="text-capitalize">code snippet</label>
+  <textarea required name="snippet" id="snippet" class="form-control"><%= formFields.snippet %></textarea>
+</div>
+<%- include('_submit_cancel_btn') %>

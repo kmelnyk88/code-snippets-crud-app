@@ -1,0 +1,18 @@
+<div class="modal fade" id= "id<%= snippet.id%>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5 class="text-center">Are you sure you want to delete<br><code><%= snippet.title%></code></h5>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <button type="button" class="btn btn-sm btn-secondary me-2" data-bs-dismiss="modal">Cancel</button>
+        <form action="/delete/<%= snippet.id %>" method="POST">
+          <button type="submit" class="btn btn-sm btn-primary me-2">Confirm</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
